@@ -1,6 +1,12 @@
 # a covid previewer
 the covid previewer that surely is great and useful
 
+# icon
+from https://www.svgrepo.com/
+
+# api 
+from https://disease.sh/
+
 ## svelte app
 
 This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
