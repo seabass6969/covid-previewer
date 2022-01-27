@@ -8,7 +8,7 @@
 </script>
 
 <main>
-<h1>
+<h1 class="testing">
 the globe covid case be like:
 </h1>
 {#await promise}
