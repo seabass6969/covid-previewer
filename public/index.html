@@ -3,13 +3,27 @@
 <head>
 	<meta charset='utf-8'>
 	<meta name='viewport' content='width=device-width,initial-scale=1'>
+    <meta name="theme-color" content="#11001A"/>
 
 	<title>covid19 cases</title>
 
 	<link rel='icon' type='image/svg' href='/logo.svg'>
 	<link rel='stylesheet' href='/global.css'>
-	<link rel='stylesheet' href='/build/bundle.css'>
-
+	<link rel='stylesheet' href='/build/bundle.css'>            
+    <link rel="apple-touch-icon" href="/favicon.png">
+    <link rel="manifest" href="manifest.json">
+    <script>
+    if ('serviceWorker' in navigator) {
+    navigator
+        .serviceWorker
+        .register(
+        'sw.js'
+        )
+        .then(function (reg) {
+        console.log('Registration Successful');
+        });
+    }
+    </script>
 	<script defer src='/build/bundle.js'></script>
 </head>
 
