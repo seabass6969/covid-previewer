@@ -12,7 +12,7 @@
     "lang": "en",
     "orientation": "any",
     "scope": "/",
-    "prefer_related_applications": false,
+    "prefer_related_applications": true,
     "icons": [
         {
             "src": "/icon_48x48.png",
