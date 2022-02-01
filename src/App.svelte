@@ -12,7 +12,7 @@
 }
 @media (max-width: 600px){
     .toptext{
-        font-size: 14vw;
+        font-size: 10vw;
     }
     .medium{
         font-size: 8vw;
