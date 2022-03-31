@@ -15,3 +15,35 @@ body {
 }
 
 
+.toptext {
+    font-size: 5vw;
+    margin-top: 0%;
+    margin-bottom:1%;
+}
+.medium {
+    font-size: 2vw;
+}
+.credit {
+    font-size: 3vw;
+}
+.header {
+    font-size: 3vw;
+    color: gold;
+}
+a:-webkit-any-link {
+    color: gold;
+}
+@media (max-width: 600px){
+    .toptext{
+        font-size: 5vw;
+    }
+    .medium{
+        font-size: 6vw;
+    }
+    .credit {
+        font-size: 6vw;
+    }
+    .header {
+        font-size: 8vw
+    }
+}
